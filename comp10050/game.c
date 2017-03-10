@@ -5,6 +5,7 @@
 
 struct data
 	{
+		//struct for data of the different types
 		int points;
 		int smartness;
 		int strength;
@@ -16,8 +17,6 @@ struct data
 struct slots//struct of slots
 {
 	char type[50];//stores type of slot
-	int slotNum;//the position of the slot ie 0 = the first position in the slot
-	int typeNum;//stores the slot type as a number between 1-3
 
 };
 /*struct user
